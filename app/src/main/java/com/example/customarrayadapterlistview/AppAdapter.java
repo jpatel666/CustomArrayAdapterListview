@@ -44,7 +44,7 @@ public class AppAdapter extends BaseAdapter {    //Alt+Enter
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {  //convertView  //parent
 
-           //                                                                                //
+            //                                                                              //
         convertView = LayoutInflater.from(mainActivity).inflate(R.layout.app_item_layout,parent,false);
 
         ImageView ivAppicon = convertView.findViewById(R.id.ivAppicon);
