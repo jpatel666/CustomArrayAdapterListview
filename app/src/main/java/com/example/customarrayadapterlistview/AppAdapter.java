@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 public class AppAdapter extends BaseAdapter {    //Alt+Enter
 
-    // In ListView & GridView:-extends BaseAdapter {....}
+    //In ListView & GridView:-extends BaseAdapter {....}
 
     MainActivity mainActivity;
 
@@ -41,8 +41,8 @@ public class AppAdapter extends BaseAdapter {    //Alt+Enter
         return position;
     }
 
-    @Override
-    public View getView(int position, View convertView, ViewGroup parent) {  //convertView  //parent
+    @Override                             //convertView          //parent
+    public View getView(int position, View convertView, ViewGroup parent) {
 
             //                                                                             //
         convertView = LayoutInflater.from(mainActivity).inflate(R.layout.app_item_layout,parent,false);
